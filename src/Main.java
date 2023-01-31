@@ -47,5 +47,8 @@ public class Main {
         if (!userWon) {
             System.out.println("\nTry again next time. The number was " + random + ".");
         }
+
+        // Closes the scanner.
+        scanner.close();
     }
 }
